@@ -24,8 +24,9 @@ const makeBoard = () => {
         if (Math.random() < .1)
             $square.addClass('mine')
     }
-//randomly assign class of mine to 10 of them
 }
+//randomly assign class of mine to 10 of them
+
 
 //make mines and randomly set 
 
