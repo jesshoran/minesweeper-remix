@@ -15,17 +15,32 @@
 const $start = $("#start");
 const $board = $("#board");
 
+
 const makeBoard = () => {
     $board.empty();
     for (let i = 0; i < 81; i++) {
         const $square = $('<div class="square">');
         $board.append($square)
+        if (Math.random() < .1)
+            $square.addClass('mine')
     }
+//randomly assign class of mine to 10 of them
 }
+
+//make mines and randomly set 
+
+
+
+
+
+
+
+
 $start.on("click", makeBoard);
+// $square.on("click", unveil)
 
 
-//randomly set mines
+
 
 
 

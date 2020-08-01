@@ -18,3 +18,11 @@
     background-color: pink;
     border: 1px solid black;
 }
+
+.square:hover {
+    background-color: white;
+}
+
+.mine {
+    background-color: blueviolet;
+}
